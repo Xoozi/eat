@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item 
+    name="Ch05 Interprocess Communication"
+    cotent="ch05.xml"
+    type="list" >
+    
+    <item
+        name="One-Way Messenger"
+        content="com.xoozi.eat.ActivityOnewayMessenger"
+        type="activity" />
+
+    <item
+        name="Two-Way Messenger"
+        content="com.xoozi.eat.ActivityTwowayMessenger"
+        type="activity" />
+
+</item>

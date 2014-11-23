@@ -1,0 +1,13 @@
+#!/bin/bash
+#Default for this project package
+#Or $1 for special package
+
+if [ "$1" == "" ]; then
+    packagename=com.xoozi.eat
+else
+    packagename=$1
+fi
+
+pid=`adb shell ps | grep $packagename | awk '{print $2}'`
+
+adb logcat | grep --color=auto $pid

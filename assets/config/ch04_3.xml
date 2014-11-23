@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item 
+    name="Ch04-3 Android Message Passing"
+    cotent="ch04_3.xml"
+    type="list" >
+    
+    <item
+        name="Android Message Passing"
+        content="com.xoozi.eat.ActivityMessagePassing"
+        type="activity" />
+
+    <item
+        name="Two-way message passing"
+        content="com.xoozi.eat.ActivityTwowayMessage"
+        type="activity" />
+
+    <item
+        name="Observing Message Queue"
+        content="com.xoozi.eat.ActivityObservingMessage"
+        type="activity" />
+</item>

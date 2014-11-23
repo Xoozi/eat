@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item 
+    name="Ch04 Thread Communication"
+    cotent="ch04.xml"
+    type="list" >
+    
+    <item
+        name="Pipes"
+        content="com.xoozi.eat.ActivityPipes"
+        type="activity" />
+
+    <item
+        name="Shared Memory"
+        content="com.xoozi.eat.ActivitySharedMemory"
+        type="activity" />
+
+    <item
+        name="Android Message Passing"
+        content="ch04_3.xml"
+        type="list" />
+
+</item>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.xoozi.eat"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+        <activity android:name="EATActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="ActivityPipes"
+                android:label="@string/app_name" />
+
+        <activity android:name="ActivitySharedMemory"
+                android:label="@string/app_name" />
+
+        <activity android:name="ActivityMessagePassing"
+                android:label="@string/app_name" />
+        
+        <activity android:name="ActivityTwowayMessage"
+                android:label="@string/app_name" />
+
+        <activity android:name="ActivityObservingMessage"
+                android:label="@string/app_name" />
+
+        <activity android:name="ActivityOnewayMessenger"
+                android:label="@string/app_name" />
+
+        <activity android:name="ActivityTwowayMessenger"
+                android:label="@string/app_name" />
+
+        <service android:name="ServiceMessenger"
+            android:process=":eatservice">
+            <intent-filter>
+                <action android:name="com.xoozi.eat.chapter5.ACTION_BIND"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

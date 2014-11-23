@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item 
+    name="Efficient Android Threading"
+    cotent="root.xml"
+    type="list" >
+    
+    <item
+        name="Ch04 Thread Communication"
+        content="ch04.xml"
+        type="list" />
+
+    <item
+        name="Ch05 Interprocess Communication"
+        content="ch05.xml"
+        type="list" />
+</item>

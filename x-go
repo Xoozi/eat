@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#Default to install a debug version
+#Or $1 for the app to install
+
+ant debug
+
+if [ "$?" == "0" ]; then
+    echo "ant suc, run soon"
+else
+    echo "ant faild, gg"
+    exit $?
+fi
+
+if [ "$1" == "" ]; then
+    adb install -r ./bin/EATDemo-debug.apk
+else
+    adb install -r $1
+fi
+
+adb shell am start com.xoozi.eat/.EATActivity
+

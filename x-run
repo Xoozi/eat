@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#Run the app's special activity, need edit script for yourself
+
+adb shell am start com.xoozi.eat/.EATActivity

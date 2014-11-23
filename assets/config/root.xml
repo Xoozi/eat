@@ -13,4 +13,9 @@
         name="Ch05 Interprocess Communication"
         content="ch05.xml"
         type="list" />
+
+    <item
+        name="Ch07 Managing the Lifecycle of a Basic Thread"
+        content="ch07.xml"
+        type="list" />
 </item>

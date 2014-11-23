@@ -39,5 +39,8 @@
                 <action android:name="com.xoozi.eat.chapter5.ACTION_BIND"/>
             </intent-filter>
         </service>
+
+        <activity android:name="ActivityThreadRetain"
+                android:label="@string/app_name" />
     </application>
 </manifest>

@@ -42,5 +42,11 @@
 
         <activity android:name="ActivityThreadRetain"
                 android:label="@string/app_name" />
+        
+        <activity android:name="ActivityRelatedTask"
+                android:label="@string/app_name" />
+
+        <activity android:name="ActivityTaskChaining"
+                android:label="@string/app_name" />
     </application>
 </manifest>

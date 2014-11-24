@@ -18,4 +18,9 @@
         name="Ch07 Managing the Lifecycle of a Basic Thread"
         content="ch07.xml"
         type="list" />
+
+    <item
+        name="Ch08 HandlerThread: A Hight-Level Queueing Mechanism"
+        content="ch08.xml"
+        type="list" />
 </item>
